@@ -1,0 +1,246 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Asap', sans-serif;
+}
+.Container1{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.Nav li{
+    list-style: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.Header{
+    padding: 20px 0;
+    
+}
+.Logo{
+    width: 64%;
+    float: left;
+}
+.Logo a, .Navbar a{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s;
+}
+.Logo a:hover, .Navbar a:hover{
+    color: white;
+}
+.Navbar{
+    width: 36%;
+    float: right;
+}
+.Navbar a{
+    font-size: 20px;
+}
+.Navbar li{
+    float: left;
+    padding: 5px 14px;
+}
+/* 2ci hisse */
+
+.Container2{
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg);
+    margin: auto;
+    text-align: center;
+    padding: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.favorite1 h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 15px;  
+}
+.hr hr{
+    max-width: 20px;    
+    border-color: #f4623a;
+    margin: auto;
+    align-content: center;
+    padding: 0 20px 0 20px;
+    border-width: 2px;
+}
+.favorite2 p{
+    color: rgba(255,255,255,.75);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.favorite2 button{
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    padding: 19px 25px;
+    background-color: #f4623a;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.favorite2 button:hover{
+    background-color: rgb(228, 148, 1);
+}
+.favorite2 button:focus{
+    outline: none;
+}
+/* 3CU HISSE */
+#avm .res{
+    background-color: #f4623a;
+    color: white;
+    padding: 20px;
+}
+#avm .res .hr-2 {
+    padding: 15px 0 15px 0;
+}
+#avm .res .hr-2 hr{
+    max-width: 20px;    
+    border-color: #fff;
+    margin: auto;
+    align-content: center;
+    padding: 0 20px 0 20px;
+    border-width: 2px;
+}
+#avm .res .start{
+    padding: 25px;
+}
+#avm .res .start h2{
+    padding: 40px 0 0 0;
+}
+#avm .res .start button{
+    padding: 15px;
+    border-radius: 25px;
+}
+/* 4cu hisse */
+#service{
+    padding: 60px;
+}
+.icon i{
+    font-weight: 900;;
+    font-size: 70px;
+    color: coral !important;
+}
+#service hr{
+    max-width: 20px;    
+    border-color: coral;
+    margin: auto;
+    align-content: center;
+    padding: 0 20px 0 20px;
+    border-width: 2px;
+}
+#service h2{
+    padding: 25px;
+}
+
+/* 5-ci hisse */
+.img-holder .sekil1{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.img-holder .sekil2{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.img-holder .sekil3{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.img-holder .sekil4{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.img-holder .sekil5{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.img-holder .sekil6{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg);
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+.sekil11 h2, .sekil21 h2,.sekil31 h2,.sekil41 h2,.sekil51 h2,.sekil61 h2{
+    padding: 15% 0 0;
+}
+
+.sekil11, .sekil21,.sekil31,.sekil41,.sekil51,.sekil61{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: background-color .4s;
+    opacity: 0;
+    text-align: center;
+}
+.sekil1:hover .sekil11, .sekil2:hover .sekil21, .sekil3:hover .sekil31, .sekil4:hover .sekil41, .sekil5:hover .sekil51, .sekil6:hover .sekil61{
+    opacity: 0.7;
+}
+
+.block{
+    display: block;
+    width: 20%;
+    height: 200px;
+    background: red;
+}
+.inline{
+    display: inline;
+    width: 20%;
+    height: 200px;
+    background: violet;
+
+}
+.inline-block{
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    background: black;
+    
+}   
+/* 6ci hisse */
+#download {
+    padding: 30px;
+    background-color: #343a40;
+    color: white;
+}
+#download .now{
+    padding: 80px;
+}
+#download .now button{
+    border-radius: 25px;
+    padding: 15px;
+}
+#download .now h2{
+    padding: 20px;
+}
+/* 8ci hisse */
+.footer{
+    padding: 45px;
+}
